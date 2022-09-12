@@ -8,9 +8,9 @@
 int main(void)
 {
 	int count = 0;
-	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabets[] = "abcdefghijklmnopqrstuvwxyz\n";
 
-	while (count < 26)
+	while (count < 27)
 	{
 		putchar(alphabets[count]);
 		count++;
