@@ -13,10 +13,16 @@ int main(void)
 
 	while (count < 27)
 	{
-		if (alphabets[count] == 'q' && alphabets[count] == 'e')
+		switch (alphabets[count])
+		{
+		case 'e':
+		case 'q':
+			count++;
 			continue;
-		putchar(alphabets[count]);
-		count++;
+		default:
+			putchar(alphabets[count]);
+			count++;
+		}
 	}
 
 	return (0);
