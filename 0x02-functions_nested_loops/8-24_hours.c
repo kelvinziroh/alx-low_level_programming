@@ -30,7 +30,7 @@ void jack_bauer(void)
 					_putchar(d);
 					_putchar('\n');
 				}
-				c++
+				c++;
 			}
 			b++;
 		}
