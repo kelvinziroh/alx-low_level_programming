@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -abs - Display the absolute value of an integer
+ * _abs - Display the absolute value of an integer
  *
  *  @i: Input number as integer
  *
