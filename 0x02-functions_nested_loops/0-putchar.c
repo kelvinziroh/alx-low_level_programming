@@ -17,6 +17,7 @@ int main(void)
 	while (count < length)
 	{
 		_putchar(txt[count]);
+		count++;
 	}
 	_putchar('\n');
 	return (0);
