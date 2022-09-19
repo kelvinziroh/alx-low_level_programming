@@ -9,6 +9,7 @@
 void print_rev(char *s)
 {
 	int count = 0;
+	int new_count;
 
 	while (count >= 0)
 	{
@@ -17,8 +18,7 @@ void print_rev(char *s)
 		count++;
 	}
 
-	int new_count = count;
-
+	new_count = count;
 	while (new_count >= 0)
 	{
 		_putchar(s[new_count]);
