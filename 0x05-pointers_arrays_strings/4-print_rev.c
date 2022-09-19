@@ -2,15 +2,15 @@
 
 /**
  * print_rev - prints a string in reverse.
- * @str: pointer variable to string.
+ * @s: pointer variable to string.
  *
  * Return: Nothing.
  */
-void print_rev(char *str)
+void print_rev(char *s)
 {
 	int count = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
 		count++;
 		str++;
