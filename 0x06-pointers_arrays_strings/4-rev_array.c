@@ -21,7 +21,7 @@ void reverse_array(int *a, int n)
 		{
 			var = *(a + j);
 			*(a + j) = *(a + (j - 1));
-			*(a + (j - 1)) = temp;
+			*(a + (j - 1)) = var;
 			j--;
 		}
 		i++;
