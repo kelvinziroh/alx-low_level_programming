@@ -23,7 +23,7 @@ char *_strcat(char *dest, char *src)
 		if (*(src + count_2) == '\0')
 			break;
 		count++;
-		count_2;
+		count_2++;
 	}
 	return (dest);
 }
