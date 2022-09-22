@@ -5,7 +5,7 @@
  * @s1: Pointer variable to first string.
  * @s2: Pointer variable to second string.
  *
- * Return:0 if s1 is equal to s2, a negative number
+ * Return: 0 if s1 is equal to s2, a negative number
  * when first different character in s1 has a lower
  * ASCII value than correspondent character in s2, a
  * positive number when first differnt character in s1
@@ -18,9 +18,9 @@ int _strcmp(char *s1, char *s2)
 
 	while (c == 0)
 	{
-		if ((*(s1 + 1) == '\0') && (*(s2 + 1) == '\0'))
+		if ((*(s1 + count) == '\0') && (*(s2 + count) == '\0'))
 			break;
-		c = *(s1 + 1) - *(s2 + count);
+		c = *(s1 + count) - *(s2 + count);
 		count++;
 	}
 
