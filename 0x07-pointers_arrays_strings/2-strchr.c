@@ -20,7 +20,7 @@ char *_strchr(char *s, char c)
 		count++;
 	}
 
-	if (*(s + count == c))
+	if (*(s + count) == c)
 		return (s + count);
 	return ('\0');
 }
